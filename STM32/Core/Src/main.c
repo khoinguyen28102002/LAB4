@@ -94,10 +94,10 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim2);
   SCH_Init();
-  SCH_Add_Task(Display_Led1, 500, 500);
+  SCH_Add_Task(Display_Led1, 1000, 500);
   SCH_Add_Task(Display_Led2, 1000, 1000);
-  SCH_Add_Task(Display_Led3, 1500, 1500);
-  SCH_Add_Task(Display_Led4, 2000, 2000);
+  SCH_Add_Task(Display_Led3, 3000, 1500);
+  SCH_Add_Task(Display_Led4, 5000, 2000);
   SCH_Add_Task(Display_Led5, 2500, 0);
   /* USER CODE END 2 */
 

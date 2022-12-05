@@ -19,7 +19,7 @@ typedef struct{
 
 #define SCH_MAX_TASK	40
 #define NO_TASK_ID		0
-#define TIME_CYCLE 10;
+#define TIME_CYCLE 10
 sTask	SCH_tasks[SCH_MAX_TASK];
 
 void SCH_Init(void);
